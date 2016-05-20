@@ -1,4 +1,4 @@
-#include "INV..h"
+#include "INV.h"
 
 INV::INV(const GraphicsInfo &r_GfxInfo, int r_FanOut) :Gate(1, r_FanOut)
 {
@@ -9,12 +9,22 @@ INV::INV(const GraphicsInfo &r_GfxInfo, int r_FanOut) :Gate(1, r_FanOut)
 }
 
 
-void INV::Operate()
-{
-	//caclulate the output status as the ANDing of the two input pins
-
-	//Add you code here
-}
+//void INV::Operate()
+//{
+//	//caclulate the output status as the ANDing of the two input pins
+//
+//	//Add you code here
+//	int value = GetInputPinStatus(1);
+//
+//
+//	if (value == 0) //if the input is 1 , 1
+//	{
+//		setOutputPinStatus(HIGH); //then the output status is 1
+//	}
+//	else
+//		setOutputPinStatus(LOW);
+//
+//}
 
 
 // Function Draw
@@ -36,6 +46,10 @@ int INV::GetOutPinStatus()
 int INV::GetInputPinStatus(int n)
 {
 	return m_InputPins[n - 1].getStatus();	//n starts from 1 but array index starts from 0.
+}
+void INV::setOutputPinStatus(STATUS s)
+{
+	m_OutputPin.setStatus(s);
 }
 
 //Set status of an input pin ot HIGH or LOW

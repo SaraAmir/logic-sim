@@ -1,81 +1,16 @@
-﻿Build started 5/20/2016 2:15:52 PM.
-     1>Project "F:\UNI\senior1\spring2016\PT\New folder\PT-Project-Mod\PT Project Mod\Project Code Framework\graphics_prj.vcxproj" on node 2 (Build target(s)).
+﻿Build started 5/20/2016 9:56:08 PM.
+     1>Project "H:\PT Project Mod\Project Code Framework\graphics_prj.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt GUI\Input.cpp
-         Input.cpp
-     1>f:\uni\senior1\spring2016\pt\new folder\pt-project-mod\pt project mod\project code framework\gui\input.cpp(140): warning C4715: 'Input::GetUserAction': not all control paths return a value
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/graphics_prj.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug/graphics_prj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\graphics_prj.lib" /MACHINE:X86 /SAFESEH .\Debug/AddANDgate2.obj
-         .\Debug/AddANDgate3.obj
-         .\Debug/AddNANDgate2.obj
-         .\Debug/AddNORgate2.obj
-         .\Debug/AddNORgate3.obj
-         .\Debug/AddORgate.obj
-         .\Debug/AddXORgate2.obj
-         .\Debug/AddXORgate3.obj
-         .\Debug/AND3.obj
-         .\Debug/BUFF.obj
-         .\Debug/auxil.obj
-         .\Debug/CMUgraphics.obj
-         .\Debug/image.obj
-         .\Debug/jpegload.obj
-         .\Debug/keyqueue.obj
-         .\Debug/mousequeue.obj
-         .\Debug/windowinput.obj
-         .\Debug/jcomapi.obj
-         .\Debug/jcparam.obj
-         .\Debug/jdapimin.obj
-         .\Debug/jdapistd.obj
-         .\Debug/jdatasrc.obj
-         .\Debug/jdcoefct.obj
-         .\Debug/jdcolor.obj
-         .\Debug/jddctmgr.obj
-         .\Debug/jdhuff.obj
-         .\Debug/jdinput.obj
-         .\Debug/jdmainct.obj
-         .\Debug/jdmarker.obj
-         .\Debug/jdmaster.obj
-         .\Debug/jdmerge.obj
-         .\Debug/jdphuff.obj
-         .\Debug/jdpostct.obj
-         .\Debug/jdsample.obj
-         .\Debug/jdtrans.obj
-         .\Debug/jerror.obj
-         .\Debug/jidctflt.obj
-         .\Debug/jidctfst.obj
-         .\Debug/jidctint.obj
-         .\Debug/jidctred.obj
-         .\Debug/jmemmgr.obj
-         .\Debug/jmemnobs.obj
-         .\Debug/jquant1.obj
-         .\Debug/jquant2.obj
-         .\Debug/jutils.obj
-         .\Debug/AND2.obj
-         .\Debug/Component.obj
-         .\Debug/Connection.obj
-         .\Debug/Gate.obj
-         .\Debug/InputPin.obj
-         .\Debug/OutputPin.obj
-         .\Debug/Pin.obj
-         .\Debug/ApplicationManager.obj
-         .\Debug/ConnectAction.obj
-         .\Debug/Input.obj
-         .\Debug/Output.obj
-         .\Debug/INV.obj
-         .\Debug/main.obj
-         .\Debug/NAND2.obj
-         .\Debug/NOR2.obj
-         .\Debug/NOR3.obj
-         .\Debug/OR.obj
-         .\Debug/save.obj
-         .\Debug/XNOR.obj
-         .\Debug/XOR2.obj
-         .\Debug/XOR3.obj
-         graphics_prj.vcxproj -> F:\UNI\senior1\spring2016\PT\New folder\PT-Project-Mod\PT Project Mod\Project Code Framework\.\Debug\graphics_prj.exe
-       BscMake:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o".\Debug/graphics_prj.bsc" .\Debug\AddANDgate2.sbr .\Debug\AddANDgate3.sbr .\Debug\AddNANDgate2.sbr .\Debug\AddNORgate2.sbr .\Debug\AddNORgate3.sbr .\Debug\AddORgate.sbr .\Debug\AddXORgate2.sbr .\Debug\AddXORgate3.sbr .\Debug\AND3.sbr .\Debug\BUFF.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\AND2.sbr .\Debug\Component.sbr .\Debug\Connection.sbr .\Debug\Gate.sbr .\Debug\InputPin.sbr .\Debug\OutputPin.sbr .\Debug\Pin.sbr .\Debug\ApplicationManager.sbr .\Debug\ConnectAction.sbr .\Debug\Input.sbr .\Debug\Output.sbr .\Debug\INV.sbr .\Debug\main.sbr .\Debug\NAND2.sbr .\Debug\NOR2.sbr .\Debug\NOR3.sbr .\Debug\OR.sbr .\Debug\save.sbr .\Debug\XNOR.sbr .\Debug\XOR2.sbr .\Debug\XOR3.sbr
-     1>Done Building Project "F:\UNI\senior1\spring2016\PT\New folder\PT-Project-Mod\PT Project Mod\Project Code Framework\graphics_prj.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug/" /Fd".\Debug/vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AND3.cpp Actions\AddANDgate2.cpp AddANDgate3.cpp AddNANDgate2.cpp AddNORgate2.cpp AddNORgate3.cpp AddORgate.cpp AddXORgate2.cpp AddXORgate3.cpp ApplicationManager.cpp BUFF.cpp CMUgraphicsLib\CMUgraphics.cpp CMUgraphicsLib\auxil.cpp CMUgraphicsLib\image.cpp CMUgraphicsLib\keyqueue.cpp CMUgraphicsLib\mousequeue.cpp CMUgraphicsLib\windowinput.cpp Components\AND2.cpp Components\Component.cpp Components\Connection.cpp Components\Gate.cpp Components\InputPin.cpp Components\OutputPin.cpp Components\Pin.cpp ConnectAction.cpp GUI\Input.cpp GUI\Output.cpp INV.cpp NAND2.cpp NOR2.cpp NOR3.cpp OR.cpp XNOR.cpp XOR2.cpp XOR3.cpp main.cpp save.cpp
+         save.cpp
+         main.cpp
+         XOR3.cpp
+         XOR2.cpp
+         XNOR.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(355,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(355,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
+     1>Done Building Project "H:\PT Project Mod\Project Code Framework\graphics_prj.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.70
+Time Elapsed 00:01:20.22

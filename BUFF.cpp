@@ -9,12 +9,25 @@ BUFF::BUFF(const GraphicsInfo &r_GfxInfo, int r_FanOut) :Gate(1, r_FanOut)
 }
 
 
-void BUFF::Operate()
-{
-	//caclulate the output status as the ANDing of the two input pins
-
-	//Add you code here
-}
+//void BUFF::Operate()
+//{
+//	//caclulate the output status as the ANDing of the two input pins
+//
+//	//Add you code here
+//	//caclulate the output status as the ANDing of the two input pins
+//
+//	//Add you code here
+//	int value = GetInputPinStatus(1);
+//	
+//
+//	if (value == 1) //if the input is 1 , 1
+//	{
+//		setOutputPinStatus(HIGH); //then the output status is 1
+//	}
+//	else
+//		setOutputPinStatus(LOW);
+//
+//}
 
 
 // Function Draw
@@ -42,6 +55,10 @@ int BUFF::GetInputPinStatus(int n)
 void BUFF::setInputPinStatus(int n, STATUS s)
 {
 	m_InputPins[n - 1].setStatus(s);
+}
+void BUFF:: setOutputPinStatus(STATUS s)
+{
+	m_OutputPin.setStatus(s);
 }
 
 

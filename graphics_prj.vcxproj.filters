@@ -341,9 +341,6 @@
     <ClInclude Include="BUFF.h">
       <Filter>Components</Filter>
     </ClInclude>
-    <ClInclude Include="INV..h">
-      <Filter>Components</Filter>
-    </ClInclude>
     <ClInclude Include="AddXORgate2.h">
       <Filter>Actions</Filter>
     </ClInclude>
@@ -355,6 +352,9 @@
     </ClInclude>
     <ClInclude Include="AddNORgate3.h">
       <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="INV.h">
+      <Filter>Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -7,9 +7,15 @@ class Connection :	public Component
 {
 	//Component*	SrcCmpnt;	//Connection source component
 	//Component*	DstCmpnt;	//Connection Destination component
+
 	//int		DstPin;		//The Input pin to which this connection is linked
 	OutputPin* SrcPin;	//The Source pin of this connection (an output pin of certain Component)
 	InputPin* DstPin;	//The Destination pin of this connection (an input pin of certain Component)
+
+	///  attributes mn 3ndnyy
+	GraphicsInfo strt_end;  /// start point of connector end point of connector
+	STATUS value;           /// value high or low of connector .. gia mn outpin el connected leeha
+	
 public:
 	//Connection(const GraphicsInfo &r_GfxInfo, Component *pS=NULL,Component *pD=NULL, int Pin=0);
 	Connection(const GraphicsInfo &r_GfxInfo, OutputPin *pSrcPin,InputPin *pDstPin);

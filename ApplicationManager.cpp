@@ -77,6 +77,8 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
 			pAct = new AddNORgate3(this);
 			break;
 
+
+
 		case ADD_CONNECTION:
 		//	pAct=new
 			break;

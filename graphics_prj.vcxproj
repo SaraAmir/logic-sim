@@ -238,7 +238,7 @@
     <ClInclude Include="GUI\Input.h" />
     <ClInclude Include="GUI\Output.h" />
     <ClInclude Include="GUI\UI_Info.h" />
-    <ClInclude Include="INV..h" />
+    <ClInclude Include="INV.h" />
     <ClInclude Include="NAND2.h" />
     <ClInclude Include="NOR2.h" />
     <ClInclude Include="NOR3.h" />

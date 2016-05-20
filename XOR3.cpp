@@ -9,12 +9,21 @@ XOR3::XOR3(const GraphicsInfo &r_GfxInfo, int r_FanOut) :Gate(3, r_FanOut)
 }
 
 
-void XOR3::Operate()
-{
-	//caclulate the output status as the ANDing of the two input pins
-
-	//Add you code here
-}
+//void XOR3::Operate()
+//{
+//	//caclulate the output status as the ANDing of the two input pins
+//
+//	//Add you code here
+//	int value = GetInputPinStatus(1) ^ GetInputPinStatus(2) ^ GetInputPinStatus(3);
+//	//m_InputPins = new InputPin[2]; // creating a new array of input pins with max num of pins = 2
+//
+//	if (value == 1)
+//	{
+//		setOutputPinStatus(HIGH); //then the output status is 1
+//	}
+//	else
+//		setOutputPinStatus(LOW);
+//}
 
 
 // Function Draw
@@ -44,6 +53,10 @@ void XOR3::setInputPinStatus(int n, STATUS s)
 	m_InputPins[n - 1].setStatus(s);
 }
 
+void XOR3::setOutputPinStatus(STATUS s)
+{
+	m_OutputPin.setStatus(s);
+}
 
 //functions to save and load 
 

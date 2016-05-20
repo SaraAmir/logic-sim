@@ -102,14 +102,15 @@ struct UI_Info	//User Interface Info.
 
 }UI;	//create a single global object UI
 
-struct Point
-{
-	int x, y;
-	Point(int a = 0, int b = 0)	//constructor
-	{
-		x = a;	y = b;
-	}
-};
+//
+//struct Point
+//{
+//	int x, y;
+//	Point(int a = 0, int b = 0)	//constructor
+//	{
+//		x = a;	y = b;
+//	}
+//};
 
 
 #endif
